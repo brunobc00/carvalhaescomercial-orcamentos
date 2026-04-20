@@ -94,6 +94,13 @@ def gerar_pdf(md_path):
             images_html += f'<div class="gallery-item"><img src="{img_path}"><p>{img}</p></div>'
         images_html += '</div>'
 
+    # Procura o logo na pasta assets
+    logo_path = repo_root / "assets" / "logo_carvalhaes_comercial.png"
+    logo_html = ""
+    if logo_path.exists():
+        logo_uri = logo_path.as_uri()
+        logo_html = f'<div class="header-logo"><img src="{logo_uri}"></div>'
+
     # Template HTML final
     full_html = f"""
     <!DOCTYPE html>
@@ -103,8 +110,8 @@ def gerar_pdf(md_path):
         <title>Orçamento</title>
     </head>
     <body>
-        <div class="header-logo">
-            <!-- Espaço para o logo via CSS @page ou img -->
+        <div class="header-container">
+            {logo_html}
         </div>
         
         {html_refined}
