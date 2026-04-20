@@ -90,14 +90,14 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 
 ## 🔍 Notas Técnicas e Observações
 
-1.  **Tecnologia de LED Integrado e Manutenção:** Todos os balizadores e spots especificados utilizam tecnologia de **LED Integrado**. No caso dos balizadores, o **driver (fonte) não é integrado**, o que garante extrema facilidade em eventuais manutenções futuras, permitindo a substituição apenas do driver sem necessidade de trocar a peça inteira.
-2.  **Conformidade NBR 5410 (Segurança):** Para as áreas da Sauna, Piscina e Deck, o sistema utiliza alimentação de **Baixa Tensão (12V)**. Esta é uma exigência de segurança para áreas molhadas, prevenindo riscos de choque elétrico.
-3.  **Sistemas Completos:** O orçamento contempla o fornecimento de todos os drivers e fontes de alimentação necessários para o funcionamento dos perfis de LED e sistemas de 12V.
+1.  **Tecnologia de LED Integrado e Manutenção:** Todos os spots, balizadores e embutidos de solo especificados utilizam tecnologia de **LED Integrado**. Nestes itens, o **driver (fonte) não é integrado**, o que garante extrema facilidade em eventuais manutenções futuras, permitindo a substituição apenas do driver sem necessidade de trocar a peça inteira.
+2.  **Conformidade NBR 5410 (Segurança):** Para as áreas da Sauna, Piscina e Deck, o sistema utiliza alimentação de **Extra Baixa Tensão**. Esta é uma exigência de segurança para áreas molhadas, prevenindo riscos de choque elétrico.
+3.  **Sistemas Completos:** O orçamento contempla o fornecimento de todos os drivers e fontes de alimentação necessários para o funcionamento dos perfis de LED e sistemas de extra baixa tensão.
 4.  **Adequação de Fachos:** Todos os spots fornecidos terão os fachos de luz adequados ao seu ambiente específico, garantindo o conforto visual e o efeito arquitetônico planejado para cada área do condomínio.
 5.  **Garantia de Fábrica:** 
     *   **5 Anos de Garantia:** Toda a linha de Jardim (balizadores, espetos, embutidos de solo) e todos os Spots de LED.
     *   **2 Anos de Garantia:** Linha de Arandelas e Lâmpadas LED.
-6.  **Conformidade com Projeto:** Todos os itens foram selecionados para atender fielmente às especificações do projeto arquitetônico e luminotécnico apresentado.
+6.  **Conformidade com Projeto:** Todos os itens foram selecionados para estarem em conformidade com o projeto apresentado.
 
 ---
 
