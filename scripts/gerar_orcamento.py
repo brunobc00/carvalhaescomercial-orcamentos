@@ -5,6 +5,8 @@ import json
 from weasyprint import HTML, CSS
 from pathlib import Path
 from bs4 import BeautifulSoup
+import re
+from datetime import datetime
 
 def gerar_pdf(md_path):
     # Caminhos base
@@ -22,6 +24,19 @@ def gerar_pdf(md_path):
     
     # Converte MD para HTML inicial
     html_raw = markdown.markdown(md_content, extensions=['tables'])
+    
+    # Extrai o nome do prédio ou cliente para a assinatura
+    building_name = "ASSINATURA DO CLIENTE"
+    first_line = md_content.split('\n')[0]
+    match = re.search(r"# .* - (.*)", first_line)
+    if match:
+        building_name = match.group(1).strip()
+    else:
+        client_match = re.search(r"\*\*CLIENTE:\*\* (.*)", md_content)
+        if client_match:
+            building_name = client_match.group(1).strip()
+            
+    current_date = datetime.now().strftime("%d/%m/%Y")
     
     # Pós-processamento com BeautifulSoup para estilizar a tabela
     soup = BeautifulSoup(html_raw, 'html.parser')
@@ -52,14 +67,14 @@ def gerar_pdf(md_path):
                 <td style="border:none; width: 45%;">
                     <div class="signature-line">
                         {empresa['nome_fantasia']}<br>
-                        DATA: {Path(md_path).stem[:10]}
+                        DATA: {current_date}
                     </div>
                 </td>
                 <td style="border:none; width: 10%;"></td>
                 <td style="border:none; width: 45%;">
                     <div class="signature-line">
-                        ASSINATURA DO CLIENTE<br>
-                        DATA: ____/____/2026
+                        {building_name}<br>
+                        DATA: {current_date}
                     </div>
                 </td>
             </tr>
