@@ -8,9 +8,11 @@
 ---
 
 ## 📝 Descrição do Projeto
-Orçamento de iluminação das áreas comuns e varandas do Edifício Ozanam conforme projeto luminotécnico.
+Todos os itens deste orçamento foram especificados em rigorosa conformidade com o **projeto arquitetônico**. 
 
-> **Observação:** O pendente da recepção será conforme descrição do projeto (2 módulos).
+> **Observações Importantes:**
+> * **Recepção:** Os 2 pendentes orçados estão de acordo com a descrição técnica do projeto (compostos por 2 módulos cada), embora a imagem ilustrativa do projeto apresente 4 módulos.
+> * **Coworking:** O pendente da mesa de reunião não foi incluído neste momento, pois a destinação final do ambiente ainda está em fase de definição.
 
 ---
 
@@ -95,6 +97,7 @@ Orçamento de iluminação das áreas comuns e varandas do Edifício Ozanam conf
 5.  **Garantia de Fábrica:** 
     *   **5 Anos de Garantia:** Toda a linha de Jardim (balizadores, espetos, embutidos de solo) e todos os Spots de LED.
     *   **2 Anos de Garantia:** Linha de Arandelas e Lâmpadas LED.
+6.  **Conformidade com Projeto:** Todos os itens foram selecionados para atender fielmente às especificações do projeto arquitetônico e luminotécnico apresentado.
 
 ---
 
