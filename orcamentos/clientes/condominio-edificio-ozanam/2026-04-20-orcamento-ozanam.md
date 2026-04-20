@@ -72,16 +72,19 @@ Orçamento de iluminação das áreas comuns e varandas do Edifício Ozanam conf
 ---
 
 ## 💳 Condições de Pagamento
-*   **Entrada:** R$ 50.673,52
-*   **Saldo Parcelado:** 7x de R$ 26.000,00 (Vencimentos em 30, 60, 90, 120, 150, 180 e 210 dias).
+
+| Parcela | Prazo | Valor |
+| :--- | :--- | :--- |
+| Entrada | À Vista | R$ 50.673,52 |
+| 1ª Parcela | 30 Dias | R$ 26.000,00 |
+| 2ª Parcela | 60 Dias | R$ 26.000,00 |
+| 3ª Parcela | 90 Dias | R$ 26.000,00 |
+| 4ª Parcela | 120 Dias | R$ 26.000,00 |
+| 5ª Parcela | 150 Dias | R$ 26.000,00 |
+| 6ª Parcela | 180 Dias | R$ 26.000,00 |
+| 7ª Parcela | 210 Dias | R$ 26.000,00 |
 
 ---
 
 ## 🖋️ Confirmação de Pedido
 Confirmo os valores, condições de pagamentos e quantidades dos produtos acima relacionados.
-
-| | |
-| :--- | :--- |
-| <br><br>__________________________________________ | <br><br>__________________________________________ |
-| **CARVALHAES COMERCIO E SERVICOS** | **CONDOMINIO EDIFICIO OZANAM** |
-| Data: 20/04/2026 | Data: ____/____/2026 |

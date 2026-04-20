@@ -29,12 +29,15 @@ h1 {
 h2 {
   font-size: 12px;
   font-weight: 600;
-  color: #E30613;
+  color: #0054A6;
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 8px;
-  border-left: 4px solid #E30613;
+  border-left: 4px solid #0054A6;
   padding-left: 8px;
+  background-color: #F0F4F8; /* Fundo azul claro para destaque */
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 h3 {
@@ -57,7 +60,7 @@ blockquote {
 blockquote p {
   margin: 2px 0;
   font-size: 9.5px;
-  color: #555;
+  color: #0054A6; /* Texto em azul escuro */
 }
 
 /* TABELAS DE PRODUTOS/SERVIÇOS */
@@ -81,12 +84,34 @@ thead th {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #F0F4F8;
+  background-color: #F8FAFD;
 }
 
 tbody td {
   padding: 7px 8px;
   border-bottom: 1px solid #DCE6F2;
+}
+
+/* Linha grossa para mudança de ambiente */
+tr.new-ambiente td {
+  border-top: 2px solid #0054A6 !important;
+}
+
+/* ASSINATURAS */
+.signature-table {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.signature-line {
+  border-top: 1.5px solid #0054A6;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+  color: #0054A6;
 }
 
 /* TOTALIZADORES */

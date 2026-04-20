@@ -27,8 +27,9 @@ TEXTO BRUTO DO ORÇAMENTO:
 INSTRUÇÕES DE FORMATAÇÃO:
 1. Use Tabelas Markdown para os itens.
 2. Formate os valores monetários como R$ 0.000,00.
-3. Inclua uma seção de 'CONDIÇÕES DE PAGAMENTO'.
-4. Inclua uma seção final de 'ASSINATURAS' com campos para Carvalhaes e para o Cliente.
+3. Inclua uma seção de 'CONDIÇÕES DE PAGAMENTO' em formato de tabela detalhada.
+4. Corrija automaticamente erros ortográficos e de digitação (ex: 'Femenino' para 'Feminino', 'Descanço' para 'Descanso').
+5. Inclua uma seção final de 'ASSINATURAS' com campos para Carvalhaes e para o Cliente.
 5. O título principal deve ser 'ORÇAMENTO DE ILUMINAÇÃO'.
 
 Retorne APENAS o conteúdo do Markdown, sem explicações.

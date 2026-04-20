@@ -4,6 +4,7 @@ import markdown
 import json
 from weasyprint import HTML, CSS
 from pathlib import Path
+from bs4 import BeautifulSoup
 
 def gerar_pdf(md_path):
     # Caminhos base
@@ -19,9 +20,53 @@ def gerar_pdf(md_path):
     with open(md_path, "r", encoding="utf-8") as f:
         md_content = f.read()
     
-    # Converte MD para HTML
-    html_content = markdown.markdown(md_content, extensions=['tables'])
+    # Converte MD para HTML inicial
+    html_raw = markdown.markdown(md_content, extensions=['tables'])
     
+    # Pós-processamento com BeautifulSoup para estilizar a tabela
+    soup = BeautifulSoup(html_raw, 'html.parser')
+    tables = soup.find_all('table')
+    
+    for table in tables:
+        rows = table.find_all('tr')
+        last_ambiente = None
+        for row in rows:
+            cells = row.find_all(['td', 'th'])
+            if len(cells) > 0:
+                current_ambiente = cells[0].get_text().strip()
+                if last_ambiente and current_ambiente != last_ambiente:
+                    row['class'] = row.get('class', []) + ['new-ambiente']
+                last_ambiente = current_ambiente
+
+    # Limpa as assinaturas do Markdown se existirem e substitui por HTML estilizado
+    html_refined = str(soup)
+    if "Confirmação de Pedido" in html_refined:
+        html_refined = html_refined.split("Confirmação de Pedido")[0]
+    
+    signatures_html = f"""
+    <div style="page-break-inside: avoid; margin-top: 50px;">
+        <h2 style="border:none; background:none; text-align:center;">Confirmação de Pedido</h2>
+        <p style="text-align:center; font-size: 9px; margin-bottom: 40px;">Confirmo os valores, condições de pagamentos e quantidades dos produtos acima relacionados.</p>
+        <table class="signature-table">
+            <tr>
+                <td style="border:none; width: 45%;">
+                    <div class="signature-line">
+                        {empresa['nome_fantasia']}<br>
+                        DATA: {Path(md_path).stem[:10]}
+                    </div>
+                </td>
+                <td style="border:none; width: 10%;"></td>
+                <td style="border:none; width: 45%;">
+                    <div class="signature-line">
+                        ASSINATURA DO CLIENTE<br>
+                        DATA: ____/____/2026
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    """
+
     # Procura imagens na pasta do cliente
     images_html = ""
     valid_extensions = ('.jpg', '.jpeg', '.png', '.gif')
@@ -47,7 +92,9 @@ def gerar_pdf(md_path):
             <!-- Espaço para o logo via CSS @page ou img -->
         </div>
         
-        {html_content}
+        {html_refined}
+        
+        {signatures_html}
         
         {images_html}
     </body>
