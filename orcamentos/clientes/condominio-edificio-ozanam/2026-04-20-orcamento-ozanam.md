@@ -1,14 +1,14 @@
 # ORÇAMENTO DE ILUMINAÇÃO - EDIFÍCIO OZANAM
 
-**CLIENTE:** CONDOMINIO EDIFICIO OZANAM  
-**CNPJ:** 33.761.655/0001-31  
-**DATA:** 17/04/2026  
-**VALIDADE:** 28/04/2026  
+**CLIENTE:** CONDOMINIO EDIFICIO OZANAM
+**CNPJ:** 33.761.655/0001-31
+**DATA:** 17/04/2026
+**VALIDADE:** 28/04/2026
 
 ---
 
 ## 📝 Descrição do Projeto
-Todos os itens deste orçamento foram especificados em rigorosa conformidade com o **projeto arquitetônico**. 
+Todos os itens deste orçamento foram especificados em rigorosa conformidade com o **projeto arquitetônico**.
 
 > **Observações Importantes:**
 > * **Recepção:** Os 2 pendentes orçados estão de acordo com a descrição técnica do projeto (compostos por 2 módulos cada), embora a imagem ilustrativa do projeto apresente 4 módulos.
@@ -39,7 +39,7 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 | Entrada | Spot 1F | 3 | R$ 122,39 | R$ 367,17 |
 | Entrada | Spot 3F | 6 | R$ 181,42 | R$ 1.088,50 |
 | Entrada - Recepção | Spot 6F | 12 | R$ 337,02 | R$ 4.044,26 |
-| Estrada | Lustre | 2 | R$ 10.401,54 | R$ 20.803,08 |
+| Entrada | Lustre | 2 | R$ 10.401,54 | R$ 20.803,08 |
 | Gourmet | Pendente | 2 | R$ 2.277,81 | R$ 4.555,62 |
 | Gourmet | Perfil | 4 | R$ 481,54 | R$ 1.926,17 |
 | Gourmet | Spot 1F | 6 | R$ 122,39 | R$ 734,34 |
@@ -94,7 +94,7 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 2.  **Conformidade NBR 5410 (Segurança):** Para as áreas da Sauna, Piscina e Deck, o sistema utiliza alimentação de **Extra Baixa Tensão**. Esta é uma exigência de segurança para áreas molhadas, prevenindo riscos de choque elétrico.
 3.  **Sistemas Completos:** O orçamento contempla o fornecimento de todos os drivers e fontes de alimentação necessários para o funcionamento dos perfis de LED e sistemas de extra baixa tensão.
 4.  **Adequação de Fachos:** Todos os spots fornecidos terão os fachos de luz adequados ao seu ambiente específico, garantindo o conforto visual e o efeito arquitetônico planejado para cada área do condomínio.
-5.  **Garantia de Fábrica:** 
+5.  **Garantia de Fábrica:**
     *   **5 Anos de Garantia:** Toda a linha de Jardim (balizadores, espetos, embutidos de solo) e todos os Spots de LED.
     *   **2 Anos de Garantia:** Linha de Arandelas e Lâmpadas LED.
 6.  **Conformidade com Projeto:** Todos os itens foram selecionados para estarem em conformidade com o projeto apresentado.

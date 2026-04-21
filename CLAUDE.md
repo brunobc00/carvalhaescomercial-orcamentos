@@ -24,3 +24,8 @@ Sempre que um orçamento possuir imagens comprobatórias ou técnicas:
 
 ## Comandos Úteis
 - Gerar PDF: `python scripts/gerar_orcamento.py <caminho_do_arquivo>`
+
+## Git
+```bash
+git add . && git commit -m "<tipo>: <descrição>" && git push origin main
+```
