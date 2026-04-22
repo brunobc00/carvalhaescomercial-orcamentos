@@ -20,15 +20,14 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 
 | Ambiente | Grupo | Qtd | Valor Unit. | Total |
 | :--- | :--- | :---: | :--- | :--- |
-| Academia | Arandela | 3 | R$ 186,14 | R$ 558,42 |
 | Academia | Perfil | 16 | R$ 255,75 | R$ 4.092,05 |
 | Área de Descanso | Arandela | 2 | R$ 982,35 | R$ 1.964,70 |
 | Área de Descanso | Spot 1F | 15 | R$ 122,39 | R$ 1.835,85 |
-| Área de Descanso | Spot 3F | 1 | R$ 181,42 | R$ 181,42 |
+| Área de Descanso | Spot 3F | 2 | R$ 181,42 | R$ 362,83 |
 | Banho Fem | Plafon | 2 | R$ 134,00 | R$ 268,01 |
 | Banho Fem | Spot 1F | 2 | R$ 122,39 | R$ 244,78 |
-| Banho Masc | Spot 1F | 2 | R$ 122,39 | R$ 244,78 |
 | Banho Masc | Plafon | 2 | R$ 134,00 | R$ 268,01 |
+| Banho Masc | Spot 1F | 2 | R$ 122,39 | R$ 244,78 |
 | Biblioteca | Spot 1F | 10 | R$ 122,39 | R$ 1.223,90 |
 | Biblioteca | Spot 3F | 8 | R$ 181,42 | R$ 1.451,34 |
 | Cowork | Spot 1F | 9 | R$ 122,39 | R$ 1.101,51 |
@@ -38,8 +37,8 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 | Deck | Balizador | 45 | R$ 131,78 | R$ 5.930,16 |
 | Entrada | Spot 1F | 3 | R$ 122,39 | R$ 367,17 |
 | Entrada | Spot 3F | 6 | R$ 181,42 | R$ 1.088,50 |
-| Entrada - Recepção | Spot 6F | 12 | R$ 337,02 | R$ 4.044,26 |
 | Entrada | Lustre | 2 | R$ 10.401,54 | R$ 20.803,08 |
+| Entrada - Recepção | Spot 6F | 22 | R$ 337,02 | R$ 7.414,47 |
 | Gourmet | Pendente | 2 | R$ 2.277,81 | R$ 4.555,62 |
 | Gourmet | Perfil | 4 | R$ 481,54 | R$ 1.926,17 |
 | Gourmet | Spot 1F | 6 | R$ 122,39 | R$ 734,34 |
@@ -49,13 +48,15 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 | Hall 1A | Spot 1F | 21 | R$ 122,39 | R$ 2.570,19 |
 | Hall 1A | Spot 3F | 9 | R$ 181,42 | R$ 1.632,76 |
 | Hall 1B | Spot 3F | 17 | R$ 181,42 | R$ 3.084,10 |
+| Hall Elevadores | Spot 3F | 64 | R$ 146,14 | R$ 9.352,85 |
 | Jardim | Emb. Solo | 8 | R$ 552,40 | R$ 4.419,22 |
 | Jardim | Espeto | 20 | R$ 213,81 | R$ 4.276,25 |
-| Muros | Arandela | 19 | R$ 199,87 | R$ 3.797,53 |
+| Lojas | Balizador | 7 | R$ 137,89 | R$ 965,25 |
+| Muros | Arandela | 19 | R$ 148,09 | R$ 2.813,63 |
 | Pilotis | Spot 1F | 21 | R$ 122,39 | R$ 2.570,19 |
 | Pilotis | Spot 3F | 13 | R$ 181,42 | R$ 2.358,43 |
 | Piso Elevado | Balizador | 16 | R$ 136,99 | R$ 2.191,80 |
-| Prédio | Arandela | 50 | R$ 199,87 | R$ 9.993,50 |
+| Prédio | Arandela | 50 | R$ 148,09 | R$ 7.404,28 |
 | Proj Tipo | Spot 3F | 7 | R$ 181,42 | R$ 1.269,92 |
 | Salão de Festas | Perfil | 18 | R$ 336,96 | R$ 6.065,28 |
 | Salão de Festas | Spot 1F | 22 | R$ 122,39 | R$ 2.692,58 |
@@ -63,13 +64,13 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 | Sauna | Arandela | 2 | R$ 302,11 | R$ 604,21 |
 | Sobras | Spot 1F | 5 | R$ 122,39 | R$ 611,95 |
 | Sobras | Spot 3F | 3 | R$ 181,42 | R$ 544,25 |
-| Terraço | Spot 3F | 8 | R$ 181,42 | R$ 1.451,34 |
+| Terraço | Spot 3F | 16 | R$ 181,42 | R$ 2.902,68 |
 | Varandas | Spot 3F | 672 | R$ 181,42 | R$ 121.912,54 |
 | Vest Fem | Plafon | 2 | R$ 134,00 | R$ 268,01 |
 | Vest Fem | Spot 1F | 2 | R$ 122,39 | R$ 244,78 |
 | Vest Masc | Plafon | 2 | R$ 134,00 | R$ 268,01 |
 | Vest Masc | Spot 1F | 2 | R$ 122,39 | R$ 244,78 |
-| **TOTAL GERAL** | | | | **R$ 232.673,52** |
+| **TOTAL GERAL** | | | | **R$ 243.863,05** |
 
 ---
 
@@ -77,7 +78,7 @@ Todos os itens deste orçamento foram especificados em rigorosa conformidade com
 
 | Parcela | Prazo | Valor |
 | :--- | :--- | :--- |
-| Entrada | À Vista | R$ 50.673,52 |
+| Entrada | À Vista | R$ 61.863,05 |
 | 1ª Parcela | 30 Dias | R$ 26.000,00 |
 | 2ª Parcela | 60 Dias | R$ 26.000,00 |
 | 3ª Parcela | 90 Dias | R$ 26.000,00 |
